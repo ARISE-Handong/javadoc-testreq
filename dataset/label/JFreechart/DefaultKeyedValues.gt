@@ -1,0 +1,10 @@
+getValue
+/* IndexOutOfBoundsException if <code>item</code> is out of bounds. --> 142, 151
+/* UnknownKeyException if the key is not recognised. --> 166
+getKey
+/* IndexOutOfBoundsException if <code>item</code> is out of bounds. --> 182, 191
+getIndex
+/* The index, or <code>-1</code> if the key is not recognised. --> 212
+/* IllegalArgumentException if <code>key</code> is <code>null</code>. --> 222
+removeValue
+/* UnknownKeyException if <code>key</code> is not recognised. --> 398

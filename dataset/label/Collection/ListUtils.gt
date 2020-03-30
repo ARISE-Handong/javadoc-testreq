@@ -1,0 +1,16 @@
+subtract
+/* NullPointerException if either list is null --> 386
+retainAll
+/* NullPointerException if either parameter is null --> 329
+removeAll
+/* NullPointerException if either parameter is null --> 353
+predicatedList
+/* NullPointerException if the List or Predicate is null --> 136, 144
+indexOf
+/* If the input List or predicate is null, or no element of the List matches the predicate, -1 is returned. --> 434, 438, 441
+/* the first index of an Object in the List which matches the predicate or -1 if none could be found --> 434, 438
+longestCommonSubsequence
+/* NullPointerException if either list is {@code null} --> 448, 454, 460
+partition
+/* NullPointerException if list is null --> 552
+/* IllegalArgumentException if size is not strictly positive --> 558, 564

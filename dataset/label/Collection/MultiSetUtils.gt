@@ -1,0 +1,6 @@
+unmodifiableMultiSet
+/* Any modification attempts to the returned multiset will raise an {@link UnsupportedOperationException}. --> 70
+/* NullPointerException if the MultiSet is null --> 78
+predicatedMultiSet
+/* Trying to add an invalid object results in an IllegalArgumentException. --> 139
+/* NullPointerException if the MultiSet or Predicate is null --> 124, 132

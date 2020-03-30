@@ -1,0 +1,7 @@
+setNumber
+/* NullPointerException if argument is {@code null} --> 110
+/* IllegalArgumentException if argument contains {@code '-'} or {@code '+'} --> 119, 128
+setPreRelease
+/* IllegalArgumentException if argument contains "{@code +}" --> 137
+toModuleVersionString
+/* IllegalStateException if {@linkplain #getNumber() number} is {@code null} --> 102

@@ -1,0 +1,4 @@
+getInstance
+/* BuildException If the class could not be found or the value is not valid for the given EA-class. --> 66
+setValue
+/* BuildException if the value is not valid for the attribute --> 81, 90

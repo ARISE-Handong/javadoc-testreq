@@ -1,0 +1,18 @@
+whileClosure
+/* NullPointerException if either argument is null --> 146, 152, 158
+doWhileClosure
+/* NullPointerException if either argument is null --> 178
+chainedClosure
+/* NullPointerException if the closures array is null --> 232, 238
+/* NullPointerException if any closure in the array is null --> 250
+chainedClosure
+/* NullPointerException if the closures collection is null --> 244
+/* NullPointerException if any closure in the collection is null --> 257
+switchClosure
+/* NullPointerException if the either array is null --> 460, 466
+/* NullPointerException if any element in the arrays is null --> 478
+/* IllegalArgumentException if the arrays have different sizes --> 484
+switchClosure
+/* NullPointerException if the map is null --> 472
+switchMapClosure
+/* NullPointerException if the map is null --> 578

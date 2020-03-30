@@ -1,0 +1,10 @@
+getMap
+/* the value in the map as a number, or defaultValue if the original value is null, the map is null or the map conversion fails --> 1613, 1619
+getBooleanValue
+/* the value in the Map as a Boolean, <code>false</code> if null map input --> 1586
+predicatedMap
+/* NullPointerException if the Map is null --> 79
+iterableMap
+/* NullPointerException if map is null --> 1191
+iterableSortedMap
+/* NullPointerException if sortedMap is null --> 1222

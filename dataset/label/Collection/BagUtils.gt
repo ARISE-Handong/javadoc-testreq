@@ -1,0 +1,12 @@
+synchronizedBag
+/*  NullPointerException if the Bag is null --> 50
+unmodifiableBag
+/*  NullPointerException if the Bag is null --> 64
+predicatedBag
+/*  NullPointerException if the Bag or Predicate is null --> 81, 89
+synchronizedSortedBag
+/* NullPointerException if the SortedBag is null --> 125
+unmodifiableSortedBag
+/*  NullPointerException if the SortedBag is null --> 139
+predicatedSortedBag
+/* NullPointerException if the SortedBag or Predicate is null --> 155, 163

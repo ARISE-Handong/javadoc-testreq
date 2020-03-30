@@ -1,0 +1,20 @@
+chainedTransformer
+/* NullPointerException if the transformers array or any of the transformers is null --> 245, 251, 263
+chainedTransformer 
+/* NullPointerException if the transformers collection or any of the transformers is null -->  257, 269
+ifTransformer
+/* NullPointerException if either the predicate or transformer is null --> 323, 329, 335
+ifTransformer
+/* NullPointerException if either the predicate or transformer is null --> 341
+switchTransformer
+/* NullPointerException if the either array is null --> 425, 431
+/* NullPointerException if any element in the arrays is null --> 443
+/* IllegalArgumentException if the arrays have different sizes --> 449
+switchTransformer
+/* NullPointerException if the map is null --> 437
+switchMapTransformer
+/* NullPointerException if the map is null --> 499
+mapTransformer
+/* the transformer, or {@link ConstantTransformer#nullTransformer()} if the {@code map} is {@code null} --> 158
+invokerTransformer
+/* NullPointerException if the methodName is null. --> 520

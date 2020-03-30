@@ -1,0 +1,6 @@
+synchronizedQueue
+/* NullPointerException if the queue is null --> 49
+unmodifiableQueue
+/* NullPointerException if the queue is null --> 63
+predicatedQueue
+/* NullPointerException if the queue or predicate is null --> 80, 88

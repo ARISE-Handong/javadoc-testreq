@@ -1,0 +1,4 @@
+findDomainBounds
+/* The range (<code>null</code> if the dataset is <code>null</code> or empty). --> 256
+findRangeBounds
+/* The range (<code>null</code> if the dataset is <code>null</code> or empty). --> 221

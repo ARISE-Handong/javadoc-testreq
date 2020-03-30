@@ -1,0 +1,4 @@
+getUpperCaseHex
+/* the hex character for that digit or '\0' if invalid --> 29, 30, 31
+getLowerCaseHex
+/* the hex character for that digit or '\0' if invalid --> 32, 33, 34

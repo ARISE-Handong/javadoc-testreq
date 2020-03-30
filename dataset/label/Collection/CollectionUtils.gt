@@ -1,0 +1,4 @@
+retainAll
+/* NullPointerException if either parameter is null --> 2642
+removeAll
+/* NullPointerException if either parameter is null --> 2744

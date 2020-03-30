@@ -1,0 +1,9 @@
+findValueRange
+/* Any <code>null</code> data values in the series will be ignored (except for the special case where all data values are <code>null</code>, in which case the return value is <code>Range(Double.NaN, Double.NaN)</code>). --> 1611
+/* If the time series contains no items, this method will return <code>null</code>. --> 1590, 1606
+getMinY
+/* This method returns <code>Double.NaN</code> if there is no smallest y-value (for example, when the series is empty). --> 1347
+getMaxY
+/* This method returns <code>Double.NaN</code> if there is no largest y-value (for example, when the series is empty). --> 1402
+getValue
+/* If there is no data item with the specified period, this method will return <code>null</code>. --> 218

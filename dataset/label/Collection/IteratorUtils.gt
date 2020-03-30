@@ -1,0 +1,31 @@
+arrayIterator
+/* NullPointerException if array is null --> 180
+arrayIterator
+/* IllegalArgumentException if the array is not an array --> 171
+arrayIterator
+/* IndexOutOfBoundsException if start is less than zero or greater than the length of the array --> 194, 269, 282, 209
+arrayIterator
+/* IndexOutOfBoundsException if array bounds are invalid --> 225, 234, 298, 307
+/* IllegalArgumentException if end is before start --> 243, 316
+arrayListIterator
+/* NullPointerException if array is null --> 388
+arrayListIterator
+/* IllegalArgumentException if the array is not an array --> 380
+arrayListIterator
+/* IndexOutOfBoundsException if start is less than zero --> 416, 580, 593, 439
+arrayListIterator
+/* IndexOutOfBoundsException if array bounds are invalid --> 452, 461
+/* IllegalArgumentException if end is before start --> 470
+collatedIterator
+/* NullPointerException if either iterator is null --> 727, 735
+toArray
+/* NullPointerException if iterator parameter is null --> 1241
+forEach
+/* NullPointerException if closure is null --> 1051
+forEachButLast
+/* NullPointerException if closure is null --> 1098
+find
+/* NullPointerException if predicate is null --> 1019
+indexOf
+/* the index of the first element which matches the predicate or -1 if none matches --> 1169, 1173
+/* NullPointerException if predicate is null --> 1176

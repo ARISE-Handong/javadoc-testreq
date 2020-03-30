@@ -1,0 +1,8 @@
+setAttribute
+/* BuildException if the introspected class doesn't support the given attribute, or if the setting --> 410, 420, 430, 440, 450, 460, 470, 482, 494, 506, 518, 530, 542, 554, 565, 577, 589, 601, 613, 625
+addText
+/* BuildException if non-whitespace text is provided and no method is available to handle it, or if the handling method fails. --> 92
+getElementType
+/* BuildException if the introspected class does not support the named nested element. --> 122, 132, 142, 152, 162, 178, 188, 198, 208, 218, 228
+getAddTextMethod 
+/* BuildException if the introspected class does not support the nested text. --> 100

@@ -1,0 +1,4 @@
+getAll
+/* an array containing the results of evaluating the lambda expressions (or {@code null} if the suppliers array was {@code null} --> 151
+get
+/* the results of evaluating the lambda expression (or {@code null} if the supplier was {@code null} --> 57, 63
